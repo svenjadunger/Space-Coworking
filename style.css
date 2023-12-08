@@ -1,0 +1,203 @@
+/*Homepage*/ /*header*/
+
+/*navigationbar*/
+.nav-list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #1a237e;
+}
+
+/*Fügt Innenabstand zu jedem Listenelement(Home,Reservation..) */
+.nav-list li {
+  padding: 20px;
+}
+
+.nav-list a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
+}
+
+.nav-list a:hover {
+  color: #1c5ab7;
+}
+
+/*logo*/
+.logo {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/*bar above navigationbar*/
+.header {
+  background-color: #1a237e; /* Dunkelblauer Hintergrund */
+  padding: 10px 0;
+  color: white;
+  text-align: center;
+}
+
+/*Homepage*/ /*main part*/
+
+.card {
+  background: #1c5ab7;
+  width: 700px;
+  padding: 1rem;
+}
+
+.card_image {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}
+
+.textbox {
+  display: flex;
+  background: white;
+  padding: 2em;
+  box-shadow: 20px 20px;
+  border: 2px solid #1a237e;
+}
+
+h1,
+h2 {
+  font-family: Arial;
+}
+
+h2 {
+  text-align: center;
+}
+
+.textbox p {
+  display: flex;
+  max-width: 40%;
+  font-family: Arial;
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #1a237e;
+  align-items: center;
+  flex-direction: column-reverse;
+  align-self: center;
+}
+
+/*Reservation-page*/ /*main part*/
+/*Banner*/
+.banner_style {
+  width: 97%;
+  background-color: blue;
+  text-align: center;
+  border-radius: 15px;
+  font-style: normal;
+  color: white;
+}
+.banner_container {
+  grid-column: 2;
+  grid-row: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*Reservation Form*/
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid #1a237e;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+/*Submit button*/
+form input[type="submit"] {
+  background-color: #1a237e;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/*Submit button hover*/
+form input[type="submit"]:hover {
+  background-color: #1c5ab7;
+}
+
+/*Newsletter*/
+#newsletter {
+  color: black;
+}
+
+/*Special-page*/ /*main part*/
+/*Table*/
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 10px;
+  align-items: center;
+}
+td,
+th {
+  border: 1px solid black;
+  padding: 10px;
+  align-items: center;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center; /* Zentriert den Inhalt horizontal */
+  align-items: center; /* Zentriert den Inhalt vertikal */
+  height: auto; /* Passt die Höhe automatisch an den Inhalt an */
+  padding: 20px; /* Fügt etwas Platz um die Tabelle herum hinzu */
+}
+
+.table-container table {
+  width: 80%; /* Erhöht die Breite der Tabelle auf 80% des Containers */
+  max-width: 1000px; /* Setzt eine maximale Breite */
+  margin: 0 auto; /* Zentriert die Tabelle horizontal */
+  border-collapse: collapse; /* Entfernt doppelte Ränder */
+}
+
+.table-container td,
+.table-container th {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center; /* Zentriert den Text in den Zellen */
+}
+
+/* Blue Box */
+.blue-box-price {
+  background-color: #1a237e; /* Dunkelblaue Farbe */
+  color: white; /* Textfarbe weiß */
+  padding: 50px;
+  font-family: Arial;
+  font-size: 20px;
+}
+
+/*Contact-page*/ /*main part*/
+
+/*Maps*/
+.maps {
+}
+
+/* Blue Box */
+.blue-box {
+  background-color: #1a237e; /* Dunkelblaue Farbe */
+  color: white; /* Textfarbe weiß */
+  /* Weitere Stile nach Bedarf */
+}
+
+/*Link mail*/
+.mailto a {
+  color: white;
+  font-family: Arial;
+}
+.mailto {
+  padding: 20px;
+  margin: 20px;
+}
