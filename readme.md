@@ -1,3 +1,3 @@
-Meine Erste Seite aus dem Bootcamp
+Meine Erste Homepage aus dem Bootcamp
 
-Noch ist die Seite online verfügbar auf [https://fluffy-jelly-a17e9c.netlify.app/](https://fluffy-jelly-a17e9c.netlify.app/)
+Die Seite [online verfügbar ](https://fluffy-jelly-a17e9c.netlify.app/)
