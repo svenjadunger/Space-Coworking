@@ -164,6 +164,7 @@ th {
   max-width: 1000px; /* Setzt eine maximale Breite */
   margin: 0 auto; /* Zentriert die Tabelle horizontal */
   border-collapse: collapse; /* Entfernt doppelte Ränder */
+  font-family: "Roboto", sans-serif;
 }
 
 .table-container td,
