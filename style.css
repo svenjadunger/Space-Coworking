@@ -153,17 +153,17 @@ th {
 
 .table-container {
   display: flex;
-  justify-content: center; /* Zentriert den Inhalt horizontal */
-  align-items: center; /* Zentriert den Inhalt vertikal */
-  height: auto; /* Passt die Höhe automatisch an den Inhalt an */
-  padding: 20px; /* Fügt etwas Platz um die Tabelle herum hinzu */
+  justify-content: center; 
+  align-items: center; 
+  height: auto; 
+  padding: 20px; 
 }
 
 .table-container table {
-  width: 80%; /* Erhöht die Breite der Tabelle auf 80% des Containers */
-  max-width: 1000px; /* Setzt eine maximale Breite */
-  margin: 0 auto; /* Zentriert die Tabelle horizontal */
-  border-collapse: collapse; /* Entfernt doppelte Ränder */
+  width: 80%; 
+  max-width: 1000px; 
+  margin: 0 auto; 
+  border-collapse: collapse; 
   font-family: "Roboto", sans-serif;
 }
 
@@ -171,13 +171,13 @@ th {
 .table-container th {
   border: 1px solid black;
   padding: 10px;
-  text-align: center; /* Zentriert den Text in den Zellen */
+  text-align: center; /* centers the text */
 }
 
 /* Blue Box */
 .blue-box-price {
-  background-color: #1a237e; /* Dunkelblaue Farbe */
-  color: white; /* Textfarbe weiß */
+  background-color: #1a237e; 
+  color: white;
   padding: 50px;
   font-family: Arial;
   font-size: 20px;
@@ -187,9 +187,8 @@ th {
 
 /* Blue Box */
 .blue-box {
-  background-color: #1a237e; /* Dunkelblaue Farbe */
-  color: white; /* Textfarbe weiß */
-  /* Weitere Stile nach Bedarf */
+  background-color: #1a237e; 
+  color: white; 
 }
 
 /*Link mail*/
@@ -200,4 +199,23 @@ th {
 .mailto {
   padding: 20px;
   margin: 20px;
+}
+
+/*Grid bar*/
+body {
+  margin: 40px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 100px 100px;
+grid-gap: 10px;
+background-color:aliceblue;
+color:#1c5ab7
+}
+.box {
+  background-color: aliceblue;
+  color:#1c5ab7;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%
 }
