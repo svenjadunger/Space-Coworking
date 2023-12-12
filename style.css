@@ -1,16 +1,15 @@
-/*Homepage*/ /*header*/
 
+/*Homepage*/ /*header*/
 /*navigationbar*/
 .nav-list {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   list-style-type: none;
   margin: 0;
   padding: 0;
   background-color: #1a237e;
 }
 
-/*Fügt Innenabstand zu jedem Listenelement(Home,Reservation..) */
 .nav-list li {
   padding: 20px;
 }
@@ -36,7 +35,7 @@
 
 /*bar above navigationbar*/
 .header {
-  background-color: #1a237e; /* Dunkelblauer Hintergrund */
+  background-color: #1a237e; 
   padding: 10px 0;
   color: white;
   text-align: center;
@@ -71,8 +70,7 @@
   border: 2px solid #1a237e;
 }
 
-h1,
-h2 {
+h1 {
   font-family: Arial;
 }
 
@@ -171,7 +169,7 @@ th {
 .table-container th {
   border: 1px solid black;
   padding: 10px;
-  text-align: center; /* centers the text */
+  text-align: center; 
 }
 
 /* Blue Box */
@@ -206,9 +204,8 @@ body {
   margin: 40px;
 }
 .container {
-  display: grid;
-  grid-template-columns: 100px 100px;
-grid-gap: 10px;
+display: grid;
+grid-template-columns: 100px 100px;
 background-color:aliceblue;
 color:#1c5ab7
 }
@@ -218,4 +215,13 @@ color:#1c5ab7
   border-radius: 5px;
   padding: 20px;
   font-size: 150%
+}
+
+@media screen and (max-width: 500px){
+  .nav-list {
+    width: 100%;
+  }
+  .card {
+    width: 100;
+  }
 }

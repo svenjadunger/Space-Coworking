@@ -19,11 +19,8 @@
       <nav>
         <ul class="nav-list">
           <li><a href="index.html">Home</a></li>
-          <br />
           <li><a href="registration.html">Reservation</a></li>
-          <br />
           <li><a href="special.html">Special</a></li>
-          <br />
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
@@ -34,20 +31,21 @@
     </div>
     <!--Reservation Formular-->
     <form action="https://airform.io/svenjadunger@web.de" method="post">
-      <label for="name">Name:</label><br />
-      <input type="text" id="name" name="name" /><br />
-      <label for="email">Email:</label><br />
-      <input type="email" id="email" name="email" /><br />
-      <label for="room">Room:</label><br />
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" />
+      <label for="room">Room:</label>
       <select id="room" name="room">
         <option value="raum1">Room 1</option>
         <option value="raum2">Room 2</option>
-        <option value="raum3">Room 3</option></select
-      ><br />
+        <option value="raum3">Room 3</option>
+      </select>
+      <br />
       <!--select tag-->
       <fieldset>
         <legend>Select a daytime:</legend>
-      <div>
+        <div>
           <input
             type="radio"
             id="morning"
@@ -68,33 +66,25 @@
           <label for="evening">Evening</label>
         </div>
       </fieldset>
-      <br>
+      <br />
       <label for="date">Date:</label><br />
       <input type="date" id="date" name="date" /><br />
       <input type="submit" value="Submit" />
-      <br>
-      <ol style="text-align: left;" "size: 15px;">
-        <div class="signature-date-container">
-        <label for="signature">Signature:</label>
-        <input type="text" id="signature" name="signature" />
-      </div>
-      <h3><b>Coworking Space Room Booking Terms and Conditions</b></h3>
       <br />
-      <h4>
-        <b
-          >I, the undersigned, in booking a coworking space room through Space
-          Coworking, hereby agree to the following terms and conditions:</b
-        >
-      </h4>
-      <ol>
+      <ul style="text-align: left">
         <li>
-          <u>Compliance with Rules</u><br />
+          Coworking Space Room Booking Terms and Conditions I, the undersigned,
+          in booking a coworking space room through Space Coworking, hereby
+          agree to the following terms and conditions:
+        </li>
+        <li>
+          <u>Compliance with Rules</u>
           - I agree to comply with all rules and regulations set forth by Space
           Coworking regarding the use of coworking space facilities.
         </li>
 
         <li>
-          <u>Acknowledgment of Risks</u><br />
+          <u>Acknowledgment of Risks</u>
           - I recognize that there are inherent risks associated with the use of
           office equipment and facilities and hereby assume all responsibility
           for any injuries or accidents that may occur to the registrant during
@@ -102,16 +92,15 @@
         </li>
 
         <li>
-          <u>Release and Indemnification</u><br />
+          <u>Release and Indemnification</u>
           - In consideration for being permitted to book and use the facilities
           at Space Coworking, I release, discharge, and agree to indemnify Space
           Coworking, its employees, agents, and volunteers from any claims
           arising out of the registrant's use of the facilities, including but
           not limited to any transportation provided by Space Coworking.
         </li>
-
         <li>
-          <u>Cancellation Policy</u><br />
+          <u>Cancellation Policy</u>
           - By entering my name below, I acknowledge that I have read and agree
           to the cancellation policy as provided by Space Coworking. I
           understand that any cancellations must be made in accordance with the
@@ -119,9 +108,14 @@
           charges or fees. By entering my name below, I confirm my agreement to
           these terms and authorize the booking under these conditions.
         </li>
-        <br>
-      </ol>
+      </ul>
+      <br />
+      <div class="signature-date-container">
+        <label for="signature">Signature:</label>
+        <input type="text" id="signature" name="signature" />
+      </div>
     </form>
+    <br />
     <div class="newsletter-container">
       <form action="https://airform.io/svenjadunger@web.de" method="post">
         <h2 id="newsletter">Subscribe to our Newsletter</h2>
