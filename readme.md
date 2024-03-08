@@ -7,5 +7,5 @@ The Space Coworking project is crafted to serve as a convenient platform for ind
 
 Technologies Used:
 
-HTML: Structured the content and layout of the web application, ensuring that the information is organized and accessible.
-CSS: Added styling to enhance the visual appeal and user experience of the website. The use of CSS made the platform not only functional but also engaging and easy to navigate.
+- HTML: Structured the content and layout of the web application, ensuring that the information is organized and accessible.
+- CSS: Added styling to enhance the visual appeal and user experience of the website. The use of CSS made the platform not only functional but also engaging and easy to navigate.
